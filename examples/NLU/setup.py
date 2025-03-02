@@ -127,7 +127,7 @@ _deps = [
     "tensorflow-cpu>=2.3",
     "tensorflow>=2.3",
     "timeout-decorator",
-    "tokenizers>=0.10.1,<0.11",
+    "tokenizers>=0.10.1, <0.11",
     "torch>=1.0",
     "torchaudio",
     "tqdm>=4.27",

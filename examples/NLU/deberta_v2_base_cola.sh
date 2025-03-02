@@ -4,7 +4,7 @@ export PYTHONHASHSEED=0
 export output_dir="./cola"
 torchrun --nproc_per_node=$num_gpus \
 examples/text-classification/run_glue.py \
---model_name_or_path microsoft/deberta-v2-xxlarge \
+--model_name_or_path microsoft/deberta-v3-base \
 --task_name cola \
 --do_train \
 --do_eval \
